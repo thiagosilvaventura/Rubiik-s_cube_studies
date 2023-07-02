@@ -1,0 +1,18 @@
+SQL CUBOS
+
+create database cubos;
+create table complexidade 
+( 
+id not null auto increment
+nome varchar(30),
+numero de peças int(1000)not nul,
+quantidade de peças a serem movidas int(100) notnull default 1,
+distancia da peça ao destino int(100)not null default 1,
+#### unidades por numero de peças#####
+
+realizar operações como
+
+numero de peça * deformidade = complexidade 
+complexidade * dist * quantidade de peças a serem removidas = entropia
+
+primary key (id)
